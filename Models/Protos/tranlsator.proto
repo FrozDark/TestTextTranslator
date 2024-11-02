@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "Models";
+
+package models;
+
+service Translator {
+  rpc Translate (TranslateRequest) returns (TranslateReply);
+}
+
+message TranslateRequest {
+  string from = 1;
+  string phrase = 2;
+  string to = 3;
+}
+
+message TranslateReply {
+  string data = 1;
+}

@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "TestTextTranslator.sln",
+    "projects": [
+      "Models\\Models.csproj",
+      "TranslatorConsoleClient\\TranslatorConsoleClient.csproj"
+    ]
+  }
+}
